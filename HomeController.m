@@ -147,9 +147,15 @@
 
 -(void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath{
     EditController *editController = [[EditController alloc] init];
-    editController.title = @"Edit";
+    NSManagedObject *device = [devices objectAtIndex:[indexPath row]];
+    NSString *message = [[NSString alloc] initWithFormat:@"Edit %@",[device valueForKey:@"name"]];
+    editController.title = message;
+    [message release];
+    NSManagedObjectID *id = [device objectID];
+    [editController setCurrentObjectId:id];
     [self.navigationController pushViewController:editController animated:YES];
     [editController release];
+    [device release];
 }
 
 -(void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath{

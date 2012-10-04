@@ -580,11 +580,11 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">storage</string>
+						<string key="label">camera</string>
 						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="133328391"/>
+						<reference key="destination" ref="429064887"/>
 					</object>
-					<int key="connectionID">70</int>
+					<int key="connectionID">100</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
@@ -596,11 +596,11 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">bluetooth</string>
+						<string key="label">wifi</string>
 						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="738180031"/>
+						<reference key="destination" ref="880942212"/>
 					</object>
-					<int key="connectionID">98</int>
+					<int key="connectionID">101</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
@@ -612,14 +612,6 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">camera</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="429064887"/>
-					</object>
-					<int key="connectionID">100</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">gps</string>
 						<reference key="source" ref="372490531"/>
 						<reference key="destination" ref="155651564"/>
@@ -628,27 +620,11 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">ram</string>
+						<string key="label">storage</string>
 						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="70540961"/>
+						<reference key="destination" ref="133328391"/>
 					</object>
-					<int key="connectionID">97</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">os</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="667535458"/>
-					</object>
-					<int key="connectionID">96</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">imageView</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="367768348"/>
-					</object>
-					<int key="connectionID">69</int>
+					<int key="connectionID">70</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
@@ -660,11 +636,35 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">wifi</string>
+						<string key="label">imageView</string>
 						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="880942212"/>
+						<reference key="destination" ref="367768348"/>
 					</object>
-					<int key="connectionID">101</int>
+					<int key="connectionID">69</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">bluetooth</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="738180031"/>
+					</object>
+					<int key="connectionID">98</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">os</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="667535458"/>
+					</object>
+					<int key="connectionID">96</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">ram</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="70540961"/>
+					</object>
+					<int key="connectionID">97</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">

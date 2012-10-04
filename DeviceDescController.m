@@ -45,9 +45,9 @@
     [request setPredicate:predicate];
     
     NSError *error;
-    NSMutableArray *array = [[NSMutableArray alloc]initWithArray:[context executeFetchRequest:request
+    NSMutableArray *myarray = [[NSMutableArray alloc]initWithArray:[context executeFetchRequest:request
                                                                                         error:&error] ];
-    if(array == nil){
+    if(myarray == nil){
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Select Error" 
                                                         message:[error description] 
                                                        delegate:nil
@@ -56,7 +56,7 @@
         [alert show];
         [alert release];
     }else{
-        NSManagedObject *device = [array objectAtIndex:0];
+        NSManagedObject *device = [myarray objectAtIndex:0];
         self.name.text = [device valueForKey:@"name"];
         self.description.text = [device valueForKey:@"devDescription"];
         self.storage.text = [device valueForKey:@"storage"];
@@ -66,7 +66,8 @@
         [img release];
     }
     
-    // Do any additional setup after loading the view from its nib.
+    [myarray release];// WTF ???
+    
 }
 
 - (void)viewDidUnload

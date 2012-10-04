@@ -60,6 +60,14 @@
     dev_name = nil;
     dev_description = nil;
     image = nil;
+    imageView = nil;
+    storage = nil;
+    os = nil;
+    ram = nil;
+    bluetooth = nil;
+    wifi = nil;
+    gps = nil;
+    camera = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -74,6 +82,14 @@
     [dev_name release];
     [dev_description release];
     [image release];
+    [imageView release];
+    [storage release];
+    [os release];
+    [ram release];
+    [bluetooth release];
+    [wifi release];
+    [gps release];
+    [camera release];
     [super dealloc];
 }
 
@@ -135,13 +151,11 @@
 }
 
 -(void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info{
-    
     UIImage *selectedImage = [info objectForKey:UIImagePickerControllerOriginalImage];
   
     [picker dismissModalViewControllerAnimated:YES];  
     self.image = selectedImage; 
     [self.imageView setImage:self.image];
-
 }
 
 -(void)removeImage{
