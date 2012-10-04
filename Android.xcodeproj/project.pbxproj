@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE812F7916198E43005DD56C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE812F7816198E43005DD56C /* UIKit.framework */; };
+		CE812F7B16198E43005DD56C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE812F7A16198E43005DD56C /* Foundation.framework */; };
+		CE812F7D16198E43005DD56C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE812F7C16198E43005DD56C /* CoreGraphics.framework */; };
+		CE812F7F16198E43005DD56C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE812F7E16198E43005DD56C /* CoreData.framework */; };
+		CE812F8516198E43005DD56C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE812F8316198E43005DD56C /* InfoPlist.strings */; };
+		CE812F8716198E43005DD56C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE812F8616198E43005DD56C /* main.m */; };
+		CE812F8B16198E43005DD56C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE812F8A16198E43005DD56C /* AppDelegate.m */; };
+		CE812F8E16198E43005DD56C /* Android.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE812F8C16198E43005DD56C /* Android.xcdatamodeld */; };
+		CE812FA016199535005DD56C /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE812F9E16199535005DD56C /* HomeController.m */; };
+		CE812FA116199535005DD56C /* HomeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE812F9F16199535005DD56C /* HomeController.xib */; };
+		CE812FA51619958D005DD56C /* NavController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE812FA31619958D005DD56C /* NavController.m */; };
+		CE812FA61619958D005DD56C /* NavController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE812FA41619958D005DD56C /* NavController.xib */; };
+		CE812FAB1619A5F7005DD56C /* DeviceDescController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE812FA91619A5F6005DD56C /* DeviceDescController.m */; };
+		CE812FAC1619A5F7005DD56C /* DeviceDescController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE812FAA1619A5F7005DD56C /* DeviceDescController.xib */; };
+		CE8130331619E517005DD56C /* NewDeviceController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8130311619E517005DD56C /* NewDeviceController.m */; };
+		CE8130341619E517005DD56C /* NewDeviceController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8130321619E517005DD56C /* NewDeviceController.xib */; };
+		CEBE5AFB161AFC3700FD967D /* EditController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBE5AF9161AFC3700FD967D /* EditController.m */; };
+		CEBE5AFC161AFC3700FD967D /* EditController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEBE5AFA161AFC3700FD967D /* EditController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE812F7416198E43005DD56C /* Android.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Android.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE812F7816198E43005DD56C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE812F7A16198E43005DD56C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE812F7C16198E43005DD56C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE812F7E16198E43005DD56C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CE812F8216198E43005DD56C /* Android-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Android-Info.plist"; sourceTree = "<group>"; };
+		CE812F8416198E43005DD56C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE812F8616198E43005DD56C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE812F8816198E43005DD56C /* Android-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Android-Prefix.pch"; sourceTree = "<group>"; };
+		CE812F8916198E43005DD56C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE812F8A16198E43005DD56C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE812F8D16198E43005DD56C /* Android.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Android.xcdatamodel; sourceTree = "<group>"; };
+		CE812F9D16199535005DD56C /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		CE812F9E16199535005DD56C /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
+		CE812F9F16199535005DD56C /* HomeController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeController.xib; sourceTree = "<group>"; };
+		CE812FA21619958D005DD56C /* NavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavController.h; sourceTree = "<group>"; };
+		CE812FA31619958D005DD56C /* NavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavController.m; sourceTree = "<group>"; };
+		CE812FA41619958D005DD56C /* NavController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavController.xib; sourceTree = "<group>"; };
+		CE812FA81619A5F6005DD56C /* DeviceDescController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceDescController.h; sourceTree = "<group>"; };
+		CE812FA91619A5F6005DD56C /* DeviceDescController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceDescController.m; sourceTree = "<group>"; };
+		CE812FAA1619A5F7005DD56C /* DeviceDescController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeviceDescController.xib; sourceTree = "<group>"; };
+		CE8130301619E517005DD56C /* NewDeviceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewDeviceController.h; sourceTree = "<group>"; };
+		CE8130311619E517005DD56C /* NewDeviceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewDeviceController.m; sourceTree = "<group>"; };
+		CE8130321619E517005DD56C /* NewDeviceController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewDeviceController.xib; sourceTree = "<group>"; };
+		CEBE5AF8161AFC3700FD967D /* EditController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditController.h; sourceTree = "<group>"; };
+		CEBE5AF9161AFC3700FD967D /* EditController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditController.m; sourceTree = "<group>"; };
+		CEBE5AFA161AFC3700FD967D /* EditController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE812F7116198E43005DD56C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE812F7916198E43005DD56C /* UIKit.framework in Frameworks */,
+				CE812F7B16198E43005DD56C /* Foundation.framework in Frameworks */,
+				CE812F7D16198E43005DD56C /* CoreGraphics.framework in Frameworks */,
+				CE812F7F16198E43005DD56C /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE812F6916198E42005DD56C = {
+			isa = PBXGroup;
+			children = (
+				CE812FA7161995A0005DD56C /* Classes */,
+				CE812F9D16199535005DD56C /* HomeController.h */,
+				CE812F9E16199535005DD56C /* HomeController.m */,
+				CE812F9F16199535005DD56C /* HomeController.xib */,
+				CE812FA21619958D005DD56C /* NavController.h */,
+				CE812FA31619958D005DD56C /* NavController.m */,
+				CE812FA41619958D005DD56C /* NavController.xib */,
+				CE812FA81619A5F6005DD56C /* DeviceDescController.h */,
+				CE812FA91619A5F6005DD56C /* DeviceDescController.m */,
+				CE812FAA1619A5F7005DD56C /* DeviceDescController.xib */,
+				CE8130301619E517005DD56C /* NewDeviceController.h */,
+				CE8130311619E517005DD56C /* NewDeviceController.m */,
+				CE8130321619E517005DD56C /* NewDeviceController.xib */,
+				CEBE5AF8161AFC3700FD967D /* EditController.h */,
+				CEBE5AF9161AFC3700FD967D /* EditController.m */,
+				CEBE5AFA161AFC3700FD967D /* EditController.xib */,
+				CE812F8016198E43005DD56C /* Android */,
+				CE812F7716198E43005DD56C /* Frameworks */,
+				CE812F7516198E43005DD56C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE812F7516198E43005DD56C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE812F7416198E43005DD56C /* Android.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE812F7716198E43005DD56C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE812F7816198E43005DD56C /* UIKit.framework */,
+				CE812F7A16198E43005DD56C /* Foundation.framework */,
+				CE812F7C16198E43005DD56C /* CoreGraphics.framework */,
+				CE812F7E16198E43005DD56C /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE812F8016198E43005DD56C /* Android */ = {
+			isa = PBXGroup;
+			children = (
+				CE812F8916198E43005DD56C /* AppDelegate.h */,
+				CE812F8A16198E43005DD56C /* AppDelegate.m */,
+				CE812F8C16198E43005DD56C /* Android.xcdatamodeld */,
+				CE812F8116198E43005DD56C /* Supporting Files */,
+			);
+			path = Android;
+			sourceTree = "<group>";
+		};
+		CE812F8116198E43005DD56C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE812F8216198E43005DD56C /* Android-Info.plist */,
+				CE812F8316198E43005DD56C /* InfoPlist.strings */,
+				CE812F8616198E43005DD56C /* main.m */,
+				CE812F8816198E43005DD56C /* Android-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE812FA7161995A0005DD56C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE812F7316198E43005DD56C /* Android */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE812F9116198E43005DD56C /* Build configuration list for PBXNativeTarget "Android" */;
+			buildPhases = (
+				CE812F7016198E43005DD56C /* Sources */,
+				CE812F7116198E43005DD56C /* Frameworks */,
+				CE812F7216198E43005DD56C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Android;
+			productName = Android;
+			productReference = CE812F7416198E43005DD56C /* Android.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE812F6B16198E42005DD56C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CE812F6E16198E42005DD56C /* Build configuration list for PBXProject "Android" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE812F6916198E42005DD56C;
+			productRefGroup = CE812F7516198E43005DD56C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE812F7316198E43005DD56C /* Android */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE812F7216198E43005DD56C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE812F8516198E43005DD56C /* InfoPlist.strings in Resources */,
+				CE812FA116199535005DD56C /* HomeController.xib in Resources */,
+				CE812FA61619958D005DD56C /* NavController.xib in Resources */,
+				CE812FAC1619A5F7005DD56C /* DeviceDescController.xib in Resources */,
+				CE8130341619E517005DD56C /* NewDeviceController.xib in Resources */,
+				CEBE5AFC161AFC3700FD967D /* EditController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE812F7016198E43005DD56C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE812F8716198E43005DD56C /* main.m in Sources */,
+				CE812F8B16198E43005DD56C /* AppDelegate.m in Sources */,
+				CE812F8E16198E43005DD56C /* Android.xcdatamodeld in Sources */,
+				CE812FA016199535005DD56C /* HomeController.m in Sources */,
+				CE812FA51619958D005DD56C /* NavController.m in Sources */,
+				CE812FAB1619A5F7005DD56C /* DeviceDescController.m in Sources */,
+				CE8130331619E517005DD56C /* NewDeviceController.m in Sources */,
+				CEBE5AFB161AFC3700FD967D /* EditController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE812F8316198E43005DD56C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE812F8416198E43005DD56C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE812F8F16198E43005DD56C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE812F9016198E43005DD56C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE812F9216198E43005DD56C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Android/Android-Prefix.pch";
+				INFOPLIST_FILE = "Android/Android-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE812F9316198E43005DD56C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Android/Android-Prefix.pch";
+				INFOPLIST_FILE = "Android/Android-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE812F6E16198E42005DD56C /* Build configuration list for PBXProject "Android" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE812F8F16198E43005DD56C /* Debug */,
+				CE812F9016198E43005DD56C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE812F9116198E43005DD56C /* Build configuration list for PBXNativeTarget "Android" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE812F9216198E43005DD56C /* Debug */,
+				CE812F9316198E43005DD56C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE812F8C16198E43005DD56C /* Android.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE812F8D16198E43005DD56C /* Android.xcdatamodel */,
+			);
+			currentVersion = CE812F8D16198E43005DD56C /* Android.xcdatamodel */;
+			path = Android.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CE812F6B16198E42005DD56C /* Project object */;
+}
